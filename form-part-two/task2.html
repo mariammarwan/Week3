@@ -5,30 +5,29 @@
     <meta charset="UTF-8">
 </head>
 <body>
-    <form action="#" method="GET">
-        <label for="token">Token</label><br>
-        <input type="hidden" id="token" name="token" value="b92f1fc2fce391ad7af633723afd3055"><br>
-        <label for="email">Email</label><br>
-        <input type="email" id="email" name="email" value="o@o.com" disabled><br>
-        <label for="username">Username</label><br>
-        <input type="text" id="username" name="username" autofocus required minlength="5" maxlength="20"><br>
-
-        <label>Skills</label><br>
-        <label for="problem_solving"><input type="checkbox" id="problem_solving" name="skills" value="Problem Solving"> Problem Solving</label><br>
-        <label for="logical_thinking"><input type="checkbox" id="logical_thinking" name="skills" value="Logical Thinking"> Logical Thinking</label><br>
-        <label for="advanced_search"><input type="checkbox" id="advanced_search" name="skills" value="Advanced Search"> Advanced Search</label><br>
-        <label for="analysis"><input type="checkbox" id="analysis" name="skills" value="Analysis"> Analysis</label><br>
-        <label for="planning"><input type="checkbox" id="planning" name="skills" value="Planning"> Planning</label><br>
-
-        <label>Job</label><br>
-        <label for="front_end"><input type="radio" id="front_end" name="job" value="Front-End Developer" checked> Front-End Developer</label><br>
-        <label for="back_end"><input type="radio" id="back_end" name="job" value="Back-End Developer"> Back-End Developer</label><br>
-        <label for="business_analyst"><input type="radio" id="business_analyst" name="job" value="Business Analyst"> Business Analyst</label><br>
-        <label for="project_manager"><input type="radio" id="project_manager" name="job" value="Project Manager"> Project Manager</label><br>
-        <label for="scrum_master"><input type="radio" id="scrum_master" name="job" value="Scrum Master"> Scrum Master</label><br>
-
-        <input type="reset" name="Empty">
-        <input type="submit" value="Send">
+    <form action="" method="get" target="_blank" novalidate>
+        <div>
+            <label>Search</label><br>
+            <input type="search" placeholder="Enter A Search Word" autofocus/>
+        </div><br>
+        <div>
+            <label>Upload</label><br>
+            <input type="file"/>
+        </div><br>
+        <div>
+            <label>Url</label><br>
+            <input type="url" required/>
+        </div><br>
+        <div>
+            <label for="date">Date</label>
+            <input type="date" value="1982-10-25">
+        </div><br>
+        <div>
+            <label>Month</label>
+            <input type="month" value="1982-10">
+        </div><br>
+        <input type="reset" value="Empty">
+        <input type="submit" value="Save">
     </form>
 </body>
 </html>
